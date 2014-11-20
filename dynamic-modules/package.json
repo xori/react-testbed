@@ -9,5 +9,10 @@
     "build-min": "browserify -e js/app.jsx -t reactify -t uglifyify -o dist/bundle.min.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^6.3.2",
+    "reactify": "^0.17.0",
+    "uglifyify": "^2.6.0"
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "dynamic-modules",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "browserify -e js/app.jsx -t reactify -o dist/bundle.dev.js -d",
+    "build-min": "browserify -e js/app.jsx -t reactify -t uglifyify -o dist/bundle.min.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
